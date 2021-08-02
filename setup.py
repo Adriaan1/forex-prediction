@@ -7,6 +7,7 @@ setup(
   author = 'Nagi',
   author_email = 'komoootv@gmail.com',
   license = "MIT,"
-  packages=find_packages(exclude=["*.tests"]),
+  # packages=find_packages(exclude=["*.tests"]),
+  packages = ['forex-prediction']
   install_requires = ['tensorflow', 'einops', 'yfinance', 'MetaTrader5', 'numpy', 'pandas', 'sklearn']
 )
