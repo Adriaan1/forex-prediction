@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name = "prediction",
-  version = 1.0,
+  version = "1.0",
   description = 'prediction of stock price or forex price',
   author = 'Nagi',
   author_email = 'komoootv@gmail.com',
