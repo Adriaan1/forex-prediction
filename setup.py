@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setuo(
+setup(
   name = "prediction",
   version = 1.0,
   description = 'prediction of stock price or forex price',
