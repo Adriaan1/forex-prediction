@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
   name = "prediction",
@@ -7,6 +7,6 @@ setup(
   author = 'Nagi',
   author_email = 'komoootv@gmail.com',
   license = "MIT,"
-  packages = ['prediction'],
+  packages=find_packages(exclude=["*.tests"]),
   install_requires = ['tensorflow', 'einops', 'yfinance', 'MetaTrader5', 'numpy', 'pandas', 'sklearn']
 )
